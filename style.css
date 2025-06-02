@@ -44,7 +44,7 @@ body {
   .hero {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* space between text and image */
+    justify-content: space-between; 
     padding: 80px 40px;
     max-width: 1000px;
     margin: 0 auto;
@@ -128,7 +128,7 @@ body {
     height: auto;          /* Maintain aspect ratio */
     border-radius: 12px;
     box-shadow: 0 6px 18px rgba(54, 67, 158, 0.7);/* Subtle shadow */
-    object-fit: contain;     /* Crop nicely if needed */
+    object-fit: contain;     
     
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
@@ -290,9 +290,9 @@ body {
   }
 
   .profile-pic {
-  order: -1;  /* This makes the profile pic appear first */
+  order: -1;  
   width: 180px;
-  margin: 0 auto 20px auto; /* center and add space below */
+  margin: 0 auto 20px auto; 
 }
 
 .intro-text {
