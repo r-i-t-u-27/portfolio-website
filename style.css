@@ -343,6 +343,10 @@ body {
     margin: 0 auto;
   }
 
+  .project-info p{
+    text-align: center;
+  }
+
   .experience-container {
     flex-direction: column;
     gap: 20px;
@@ -399,6 +403,11 @@ body {
   .project-img {
     max-width: 240px;
   }
+
+  .project-info p{
+    text-align: center;
+  }
+
 
   .experience-container {
     flex-direction: column;
