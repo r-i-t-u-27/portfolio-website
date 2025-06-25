@@ -343,7 +343,7 @@ body {
     margin: 0 auto;
   }
 
-  .project-info p{
+  .project-info{
     text-align: center;
   }
 
@@ -404,7 +404,7 @@ body {
     max-width: 240px;
   }
 
-  .project-info p{
+  .project-info{
     text-align: center;
   }
 
