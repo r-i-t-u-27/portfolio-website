@@ -346,7 +346,9 @@ body {
   .project-info{
     text-align: center;
   }
-
+.project-info h3{
+  text-align: center;
+}
   .experience-container {
     flex-direction: column;
     gap: 20px;
@@ -407,7 +409,9 @@ body {
   .project-info{
     text-align: center;
   }
-
+.project-info h3{
+  text-align: center;
+}
 
   .experience-container {
     flex-direction: column;
