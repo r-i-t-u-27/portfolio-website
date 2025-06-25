@@ -406,13 +406,6 @@ body {
     max-width: 240px;
   }
 
-  .project-info{
-    text-align: center;
-  }
-.project-info h3{
-  text-align: center;
-}
-
   .experience-container {
     flex-direction: column;
     gap: 25px;
