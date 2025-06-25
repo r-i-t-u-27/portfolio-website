@@ -83,13 +83,42 @@ body {
   text-decoration: none;
   font-weight: 500;
   box-shadow: 0 0 10px #728effaa;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
   text-align: center;
+   animation: pulseGlow 2s infinite;
 }
 
 .resume-btn:hover {
   background-color: #4d68d3;
+  transform: scale(1.05);
 }
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 10px #728effaa;
+  }
+  50% {
+    box-shadow: 0 0 18px #728effdd;
+  }
+  100% {
+    box-shadow: 0 0 10px #728effaa;
+  }
+}
+.arrow-bounce {
+  display: inline-block;
+  animation: bounceLeft 1.2s infinite;
+  margin-left: 8px;
+}
+
+@keyframes bounceLeft {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+}
+
 
 
   /* Skills */
